@@ -1,0 +1,55 @@
+body{ text-transform: capitalize;}
+.container{ margin-bottom: 50px;}
+.btn{ background-color: black;
+        padding: 10px 25px;
+        color: white;
+        border-radius: 10px;}
+.btn:hover{
+    padding: 12px 27px;
+}
+.carousel-indicators  [data-bs-target]{
+    background-image: linear-gradient(to bottom,#FF9C35 10% , #FFD019 90%);
+    
+}
+.bgc{ width: 30%; 
+    height: 5%;
+    margin-left: 35%;}
+.seebtn{ 
+       text-decoration: none;
+       color: #FF9C35;
+       display: flex;
+       justify-content: right;
+       
+}
+.seebtn:visited{ color: #FFD019;}
+p{ color: gray;}
+.card-footer{ background-color: white;
+                border-top: none;}
+#cards{ 
+       box-shadow: 2px 2px  5px gray;
+}
+#imgs{ width: 95%;
+            margin-top: 25px;}
+.cat1{ height: 200px;
+        width: 180px;
+        border-radius: 5px 20px 5px 20px;
+        border: 1px solid gray;
+      
+}
+h4{ text-align: center;
+    margin-top: 7px;}
+.cat2 ,.cat3{
+
+
+        height: 200px;
+        width: 180px;
+        border-radius:  20px  5px 20px 5px;
+        border: 1px solid gray;
+      
+
+}
+.line{ height: 7px;
+            width: 138px;
+            background-image: linear-gradient(to right,#FFD019 5%, #FF9C35 95%);
+            margin-bottom: 55px;
+            border-radius: 10px;}
